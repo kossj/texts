@@ -1,0 +1,1 @@
+grep -o 'instagram.com/reel/[^/]*' sms-20230604005429.xml | awk '{print "https://" $0}' > instas.txt
